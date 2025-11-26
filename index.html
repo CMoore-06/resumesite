@@ -1,36 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+ <!-- Hello there potential future employer! This site was created specifically for you to see. This contains links to all of my past computer science projects. A lot of them are past class work that has been left unaltered so you can see how my skills have grown. I have included both my programing projects as well as my projects in website development. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This site was created to be an online resume and portfolio for myself, Cale Moore. This entire site was created and styled without the use of bootstrap.">
+    <script src="https://kit.fontawesome.com/4f03d1b7a4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/landing-styles.css">
     <title>Home</title>
-
-    <!-- Hello there potential future employer! This site was created specifically for you to see. This contains links to all of my past computer science projects. A lot of them are past class work that has been left unaltered so you can see how my skills have grown. I have included both my programing projects as well as my projects in website development. -->
 </head>
 <body>
     <header>
-        <h1>Cale Moore</h1>
-        <h2>Future Programer/Website Developer</h2>
+        <div id="heading">
+            <h1>Cale Moore</h1>
+            <h2>Future Programer/Website Developer</h2>
+        </div>
     </header>
 
     <label for="navcheck">&#9776;</label>
     <input type="checkbox" id="navcheck">
     <nav>
+        <div id="home-page">
+            <a href="index.html">Home</a>
+            <div id="anchor">
+                <a href="index.html#bio">About Me</a>
+                <a href="index.html#accomplishments">Accomplishments</a>
+                <a href="index.html#languages">Coding/Programing Languages I know</a>
+                <a href="index.html#work">Previous Work Experience</a>
+            </div>
+            </div>
         <a href="webdev.html">Website Development Projects</a>
         <a href="programing.html">Programing Projects</a>
         <a href="contact.html">Contact Me</a>
     </nav>
 
     <main>
-        <h2>About Me</h2>
-        <!-- picture of me here -->
-        <p>My name is Cale Moore and I've been a resident of Springfield, Missouri basically my whole life. I'm currently a student at the Springfield campus of Ozarks Techincal Comunity College where I'm studying computer science.</p>
+        <div id="bio">
+            <h2>-- About Me --</h2>
+
+            <figure>
+                <img src="webprojects/about-me-website/Images/seniorj&j.png" alt="A picture of me during WHS's Jazz Band concert my senior year.">
+                <figcaption>Myself during WHS's Jazz Band concert my senior year.</figcaption>
+            </figure>
+
+            <p>My name is Cale Moore and I've been a resident of Springfield, Missouri basically my whole life. I'm currently a student at the Springfield campus of Ozarks Techincal Comunity College where I'm studying computer science. I currently live with my parents and girlfriend but I'm hoping to move out when the housing market is more affordable. I'm a bit of an introvert so I'm very quite and keep to myself but once I get comfortable with people I tend to talk all the time. I'm great working both by myself and in teams. I've always been very creative and I love to think of clever ways to solve problems, so I suppose I was destined for computer science.
+            </p>
+
+            <p>I attended Willard High School (WHS) where I was a part of a lot of the extracuricular activities that were offered:</p>
+            <ul>
+                <li>Marching Band</li>
+                <li>Jazz Band</li>
+                <li>Concert Band</li>
+                <li>The fall musical</li>
+                <li>Children's Thespians (performing specifically for younger audiences)</li>
+                <li>Archery</li>
+                <li>Science Olympiad</li>
+            </ul>
+
+            <p>My many extracuricular excapades taught me many valuble skills. Archery taught me how to calm myself under pressure, Science Olympiad gave me preperation and time manegment skills, and Band also helped with time manegment, as wells as teach me to how to take orders. Theater helped me learn to think outside of the box.</p>
+        </div>
+
+        <div id="accomplishments">
+            <h2>-- Accomplishments --</h2>
+            <p>I've accomplished many things over the years. In Jazz Band I won the outstanding musician ship award three years in a row, and in archery I shot a perfect 50/50 and had a record of 281/300 for a total score. My friend and I medaled at Science Olympiad Regionals our senior year, taking 5th place in Ecology. Sadly, I don't have any notable accomplishments within the world of computer science yet.</p>
+            
+            <figure>
+                <img src="images/ecology.png" alt="My friend Bodhi and I celebrating our win at Science Olympaid.">
+                <figcaption>
+                    My friend Bodhi (left) and myself (right) celebrate after medaling 5th place at Science Olympiad regionals!
+                </figcaption>
+            </figure>
+        </div>
+
+        <div id="languages">
+            <h2>-- Coding/Programing Languages I Know --</h2>
+           
+            <table style="border: 2px solid black;">
+                <thead>
+                    <tr>
+                        <th scope="col">Language</th>
+                        <th scope="col">Don't Know It</th>
+                        <th scope="col">Beginner</th>
+                        <th scope="col">Sort-Of Know It</th>
+                        <th scope="col">Know It</th>
+                        <th scope="col">Fluent</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="html">
+                        <th scope="row">HTML</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+
+                    <tr class="css">
+                        <th scope="row">CSS</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>x</td>
+                    </tr>
+
+                    <tr class="js">
+                        <th scope="row">Javascript</th>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="bat">
+                        <th scope="row">Batch Files</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="cs">
+                         <th scope="row">C#</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="java">
+                        <th scope="row">Java</th>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="py">
+                        <th scope="row">Python</th>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <div id="work">
+            <h2>-- Previous Work Experience --</h2>
+            <p>Right now I'm still working at my first job. I started at McDonald's in the summer of 2022 and saw no reason to leave until now. I want to have a job in the tech world, where I can make a living doing my passion.</p>
+        </div>
     </main>
 
     <footer>
-        <!-- footer content here -->
+        <div id="socials">
+            <a href="https://www.instagram.com/thegayeststraightpersonever/?next=%2F" target="blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@thegayeststraight" target="blank"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+
+        <div id="contact">
+            <a href="mailto:rexytrex3@gmail.com">rexytrex3@gmail.com</a>
+            <a href="tel:+14174230327">417-423-0327</a>
+        </div>
     </footer>
     
 </body>
