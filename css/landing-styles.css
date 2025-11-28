@@ -69,11 +69,23 @@ figcaption {
     font-size: 10pt;
 }
 
+.card h3 {
+    text-decoration: underline;
+}
+
+.disclaimer {
+    font-size: 8pt;
+}
+
 /* Images */
 img {
     width: 90%;
     border: 4px solid darkgreen;
     border-radius: 10px;
+}
+
+#about-me img {
+    object-position: 20%;
 }
 
 /* Containers */
@@ -108,11 +120,24 @@ td {
     margin-left: 20px;
 }
 
+#first-row, #second-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 19px;
+    width: 100%;
+}
+
+#bnb, #pawfect-pet-care {
+    width: 85%;
+}
+
 .card {
     border: 5px solid black;
     background-color: white;
     text-align: center;
-    padding: none;
+    width: 40%;
+    margin: 5px;
 }
 
 /* Other */
